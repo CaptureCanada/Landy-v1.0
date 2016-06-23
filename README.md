@@ -62,7 +62,7 @@ avec le secteur public, le secteur privé et des citoyens participants. Le premi
 
 pour le gouvernement du Canada.
 
-##
+## Description du projet
 
 Le Canada nous inspire : par ses paysages, sa faune et ses gens. C’est l’un des plus grands pays au monde et l’un des plus diversifiés sur le plan culturel. Une personne ne pourrait pas tout photographier en une vie. Par contre, les Canadiens d’un bout à l’autre du pays possèdent plus de 28 millions de téléphones intelligents et, comme les citoyens du monde d’aujourd’hui, ils saisissent et partagent des expériences en ligne chaque jour... en prenant notamment un vaste éventail de photos incroyables qui marquent des « moments canadiens ».
 
