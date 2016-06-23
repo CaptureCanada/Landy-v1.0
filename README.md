@@ -1,10 +1,6 @@
 # Capture Canada
 
-Capture.Canada is one of the winning app concepts from the federal Public Service App
-
-Challenge. The app concept is being developed in collaboration with the public sector,
-
-private sector and citizen participants. A first-of-its-kind for the Government of Canada.
+Capture.Canada is one of the winning app concepts from the federal Public Service App Challenge. The app concept is being developed in collaboration with the public sector, private sector and citizen participants. A first-of-its-kind for the Government of Canada.
 
 
 ## Project Description

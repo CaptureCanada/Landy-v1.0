@@ -1,0 +1,51 @@
+header h1, .lead {
+  color: black;
+}
+header h1 {
+  font-size: 48px;
+}
+
+header {
+    background: url('../img/gatineau.JPG');
+    background-size: cover;
+  }
+
+  .story{
+  	overflow: hidden;
+  	padding: 100px 0px 100px 0px;
+  	min-height: 200px;
+  }
+
+  .story{
+    padding-top: 50px;
+  }
+
+
+  .photos{
+  	overflow: hidden;
+  	padding: 230px 0px 150px 0px;
+  	min-height: 600px;
+  	background: url('../img/dunes.jpg');
+  	background-position: center top;
+  	background-repeat: repeat-x;
+  	color: white;
+  }
+
+  .photos h1{
+  	text-transform: uppercase;
+  	font-weight: 300;
+  	font-family: 'Roboto Condensed', sans-serif;
+  	font-size: 2.8em;
+  }
+  .photos{
+  	padding-top: 50px;
+  	padding-bottom: 50px;
+  	min-height: 200px;
+  }
+
+  .photos h1{
+  	font-size: 24px;
+  }
+  .social .visibility {
+    visibility: visible;
+  }
