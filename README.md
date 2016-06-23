@@ -1,119 +1,112 @@
-#Landy
+# Capture Canada
 
-**A flexible one-page fully responsive HTML template for your app**
+Capture.Canada is one of the winning app concepts from the federal Public Service App
 
-This documentation will guide you through the basic functions of the template. Although the template is designed for a maximum ease of use, this guide it is not intended to teach HTML or CSS and you will require basic knowledge of both in order to customize the template to your liking.
+Challenge. The app concept is being developed in collaboration with the public sector,
 
-<a href="http://landy.paolotripodi.com" target="blank" alt="landy-demo">Check out live demo here</a>
+private sector and citizen participants. A first-of-its-kind for the Government of Canada.
 
-##Features
 
-- Built on Bootstrap 3
-- Fully Responsive
-- Retina Ready
-- Parallax Scroll
-- CSS3 Animations
-- Google Web Fonts
+## Project Description
 
-##Contents
-1. HTML files
-2. CSS files
-3. Javascript files
-4. Adding your screens
-5. Using the icon set
+Canada inspires us – its landscapes, its wildlife and its people. It’s one of the largest countries in the world and one of the most culturally diverse. A person couldn’t possibly photograph it all in one lifetime. But Canadians across Canada possess over 28 million Smartphones, and like citizens of today’s world, Canadians capture and share experiences online every day... including a huge array of amazing photos marking unique “Canadian moments”.
 
-##1. HTML files
+Capture.Canada is an app designed to gather and utilize this unique, and currently scattered, legacy of images, crowdsourcing the best Canada-themed photos. Its free Creative Commons license allows anyone – Governments, charities, schools, citizens – to use, edit, reproduce and distribute photos of Canada, as long as the contributor is credited. Challenges will be posted, such as “best Canadian food”, “I spot an arctic fox”, or “PEI you’re it!” – leading to the co-creation of creative and informative Canadian content.
 
-The template has one HTML page where all the content for the site is housed:
+Unlike so many social media apps, Capture.Canada focusses on “we” not “me”. It’s theme-based like Pinterest but images are reusable and specific to Canada. It’s gamified and fun, and doesn’t take over intellectual property rights like some platforms. It’s an app that captures Canada, provided and curated by its people, for anyone who loves Canada.
 
-```
-index.html
-```
-The template is built upon the Bootstrap 3 framework (getbootstrap.com) and you have access to all the features of it. This means that you can use the 12 column grid like so:
+Building on the momentum of Canada’s 150th birthday celebrations, Capture.Canada could be launched in time to curate the best 150,000 photos of Canada, building a unique collection of high quality photos; a collection authored by volunteer photographers across Canada.
 
-```
-<div class=”row”>
-   <div class=”col-md-6”>
-   ...
-   </div>
-   <div class=”col-md-6”>
-   ...
-   </div> 
-</div>
-```
+Capture.Canada is a legacy for generations to come.
 
-The above code would give you 2 columns that sit side-byside on the page, each taking up half the page.
+## Collaborators
 
-##2. CSS files
+### Powered by:
 
-The theme has various CSS ﬁles, many of which you probably wont touch, but here is an overview of each one:
+IN·spire Innovation Hub (Natural Resources Canada)
 
-**iconfont.css** - This ﬁle controls the styling for the icon pack,donʼt worry about editing this, you will style your icons individually in the style.css ﬁle
+Science and Technology Museums Corporation
 
-**bootstrap.min.css** - This is the css framework provided by Bootstrap and includes the basic styling for the page (grid etc) and all the styles related to the framework itself. You probably wont need to touch this.
+DigiHub
 
-**animate.min.css** - This includes the styling of the Daniel Edenʼs CSS3 
-animation library Animate.css. Animations are triggered via Javascript in the 
-scripts.js ﬁle.
+Rum & Code
 
-**style.css** - This is the main style ﬁle that includes the styling for all the visual 
-elements in the template. This is the one you will likely edit when you want to 
-make adjustments (remember to use the Chrome inspector, it will tell you 
-which line of css to edit and in which ﬁle!)
+Canadian Museum of History
 
-##3. Javascript Files
-As with the CSS ﬁles, you probably wont edit most of the Javascript ﬁles. Here is an overview:
+Canadian Museum of Nature
 
-**jquery.js** - The most famous and widespread Javascript library. You wont need to make adjustments to this ﬁle
+PS App Challenge
 
-**retina.min.js** - The javascript to serve high-resolution images to devices with retina displays. To provide the retina version of a an image, create an image twice the size of the original, and then just add @2x to the same ﬁle name as shown below:
+Central Innovation Hub (Privy Council Office)
 
-```
-logo.png
-logo@2x.png
-```
+Department of Canadian Heritage
 
-**bootstrap.min.js** - The javascript provided by Bootstrap as part of the framework.
+Public Health Agency of Canada
 
-**animatescroll.js** - Provides smooth scrolling, to smooth-scroll to an element inside the page just use
+Health Canada
 
-```
-<a onclick="$('[id-or-class-of-element]').animatescroll();">Go to Element</a>
-```
+Shared Services Canada
 
-**scripts.js** - This ﬁle is the main scripts ﬁle that controls all the pretty features of the template such as the the CSS3 animations. It also controls the mobile menu toggle and slider initializations.
+### Special thanks to:
 
-##4. Adding your screens
+Deputy Minister Committee on Policy Innovation
 
-Adding your app screenshots to the template is as easy as so: just replace the images in the img/screenshots folder with yours, keep the same ﬁle name and youʼre done! Images will appear in all the templateʼs carousels.
 
-##5. Using the Icon Set
+# Capturer Canada
 
-This is a relatively simple process but you must be sure to include a few important things:
+Capturer.Canada est un des concepts d’application gagnants du Défi d’applications de
 
-1. Open icons-reference.html inside the icon-font folder
-2. You will see a list of available icons, followed by their character mapping
+la fonction publique (FP). Il est actuellement en cours de mise au point en collaboration
 
-Use this code:
+avec le secteur public, le secteur privé et des citoyens participants. Le premier du genre
 
-```
-<div class="icon-x" ></div>
-```
+pour le gouvernement du Canada.
 
-(where X is the iconʼs name)
+##
 
-For example, for the facebook icon, you would do this:
+Le Canada nous inspire : par ses paysages, sa faune et ses gens. C’est l’un des plus grands pays au monde et l’un des plus diversifiés sur le plan culturel. Une personne ne pourrait pas tout photographier en une vie. Par contre, les Canadiens d’un bout à l’autre du pays possèdent plus de 28 millions de téléphones intelligents et, comme les citoyens du monde d’aujourd’hui, ils saisissent et partagent des expériences en ligne chaque jour... en prenant notamment un vaste éventail de photos incroyables qui marquent des « moments canadiens ».
 
-```
-<div class="icon-facebook"></div>
-```
-##Copyright and Licensing
+Captez.Canada est une application conçue pour réunir et utiliser cet héritage d’images actuellement éparpillées en externalisant la collecte des meilleures photos qui représentent un thème canadien. Sa licence Creative Commons gratuite permet à n’importe qui – les gouvernements, les organismes de bienfaisance, les écoles et les citoyens – d’utiliser, de modifier, de reproduire et de distribuer des photos du Canada en autant que le mérite soit donné au collaborateur. Des défis qui mèneront à la cocréation de contenus originaux et informatifs, comme « les meilleurs mets canadiens », « J’aperçois un renard arctique » ou « L’Î-P.-É est LA place! », seront affichés.
 
-Code and documentation © Paolo Tripodi, 2014. 
-Code released under <a href="https://github.com/paolotripodi/Landy-v1.0/blob/master/LICENSE.md" alt="MIT Lincense">MIT</a>
+Contrairement à tant d’autres applications de médias sociaux, Captez.Canada se concentre sur le « nous », et non sur le « moi ». L’application est centrée sur des thèmes, comme Pinterest, mais les images sont réutilisables et portent spécifiquement sur le Canada. Elle est ludifiée et amusante et n’empiète pas sur les droits de propriété intellectuelle comme certaines plateformes le font. C’est une application qui capte le Canada en images et qui est offerte et organisée par sa population pour tous ceux et celles qui aiment le Canada.
 
-<hr/>
+Pour profiter de l’élan des célébrations du 150e anniversaire du Canada, Captez.Canada pourrait être lancée à temps pour organiser les 150 000 meilleures photos du Canada afin de constituer une collection unique de photos de grande qualité; une collection créée par des photographes bénévoles aux quatre coins du pays.
 
-Checkout Landy on <a href="http://drbl.in/kbfC" alt="Dribbble - Landy">Dribbble</a> and <a href="http://bit.ly/1nU1DLF" alt="Dribbble - Landy">Behance.</a>
+Captez.Canada est un héritage pour les générations à venir.
 
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/paolotripodi/landy-v1.0/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
+## Collaborateurs
+
+Nous aimerions remercier les collaborateurs suivants pour avoir contribué à
+
+ce projet novateur :
+
+### Optimisé par :
+
+Carrefour d’innovation IN·spire (Ressources naturelles Canada)
+
+Société des musées de sciences et technologies du Canada
+
+DigiHub
+
+Rum & Code
+
+Musée canadien de l’histoire
+
+Musée canadien de la nature
+
+Défi d’applications de la FP
+
+Centre d’innovation (Bureau du Conseil privé)
+
+Ministère du Patrimoine canadien
+
+Agence de la santé publique du Canada
+
+Santé Canada
+
+Services partagés Canada
+
+### Un remerciement particulier au :
+
+Comité des sous-ministres sur l’innovation en matière de politiques
