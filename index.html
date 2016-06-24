@@ -5,6 +5,9 @@
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <meta name="Description" content="Capture Canada is one of the winning app concepts from the federal Public Service App Challenge. The app concept is being developed in collaboration with the public sector, private sector and citizen participants. A first-of-its-kind for the Government of Canada." />
+
+    <link rel="icon" type="image/png" href="./Icons/Icon-60@2x.png" />
+
     <!-- CSS
         ================================================== -->
     <!-- Bootstrap 3-->
@@ -40,7 +43,7 @@
 			      <li><a onclick="$('.detail').animatescroll({padding:71});">Features</a></li>
 			      <li><a onclick="$('.photos').animatescroll({padding:71});">Photos Captures</a></li>
 			      <li><a onclick="$('.story').animatescroll({padding:71});">Our Story</a></li>
-			      <li><a onclick="$('.social').animatescroll({padding:71});">Social	</a></li>
+			      <li><a onclick="$('.social').animatescroll({padding:71});">Contact Us</a></li>
 			    </ul>
 			  </div>
 		  </div>
@@ -52,10 +55,16 @@
 	  <header>
 		 <div class="container">
 			 <div class="row">
-				 <div class="col-md-12">
+         <div class="col-md-3 capture-logo ">
+           <img src="./Icons/ios/Icon-76@2x.png" />
+         </div>
+				 <div class="col-md-9 header-text">
 					  <h1>Capture Canada - Capturer Canada</h1>
 					  <p class="lead">Discover. Share. Use. | Découvrir. Partager. Utiliser.</p>
-
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
 					  <div class="carousel-iphone">
 					  	<div id="carousel-example-generic" class="carousel slide">
 
@@ -156,6 +165,7 @@
 				  <div class="col-md-offset-2 col-md-8">
 					 <h1>Here are the latest photos that have been captured</h1>
 					 	    <p class="lead">Feature coming soon</p>
+                <div id="images"></div>
 				  </div>
 			  </div>
 		  </div>

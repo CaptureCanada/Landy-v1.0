@@ -6,10 +6,15 @@ header h1 {
 }
 
 header {
-    background: url('../img/gatineau.JPG');
+    background: url('../img/gatineau.jpg');
     background-size: cover;
+    height:auto;
+    min-height: 960px;
   }
+header .header-text {
+text-align: left;
 
+}
   .story{
   	overflow: hidden;
   	padding: 100px 0px 100px 0px;
@@ -49,3 +54,9 @@ header {
   .social .visibility {
     visibility: visible;
   }
+@media (min-width:1024px) {
+.capture-logo {
+  text-align: right;
+}
+
+}
