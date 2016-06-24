@@ -11,13 +11,15 @@
     <!-- CSS
         ================================================== -->
     <!-- Bootstrap 3-->
-    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
     <!-- Google Fonts -->
     <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic|Roboto+Condensed:300italic,400italic,700italic,400,300,700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:300italic,400italic,700italic,400,300,700' rel='stylesheet' type='text/css'>
     <!-- Template Styles -->
-    <link href="css/style.css" rel="stylesheet" media="screen">
-    <link href="css/capture.css" rel="stylesheet" media="screen">
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/capture.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/justifiedGallery.min.css" />
+    <link rel="stylesheet" href="css/colorbox.css" />
       </head>
   <body>
 
@@ -40,10 +42,10 @@
 			  <div class="collapse navbar-collapse navbar-ex1-collapse">
 			    <ul class="nav navbar-nav">
 			      <li><a onclick="$('header').animatescroll({padding:71});">Start</a></li>
-			      <li><a onclick="$('.detail').animatescroll({padding:71});">Features</a></li>
-			      <li><a onclick="$('.photos').animatescroll({padding:71});">Photos Captures</a></li>
 			      <li><a onclick="$('.story').animatescroll({padding:71});">Our Story</a></li>
-			      <li><a onclick="$('.social').animatescroll({padding:71});">Contact Us</a></li>
+			      <li><a onclick="$('.photos').animatescroll({padding:71});">Photos Captures</a></li>
+			      <li><a onclick="$('.detail').animatescroll({padding:71});">Features</a></li>
+			      <li><a onclick="$('.social').animatescroll({padding:71});">About Us</a></li>
 			    </ul>
 			  </div>
 		  </div>
@@ -64,7 +66,7 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-md-12">
+          <div class="col-sm-6">
 					  <div class="carousel-iphone">
 					  	<div id="carousel-example-generic" class="carousel slide">
 
@@ -91,142 +93,147 @@
 					  </div>
 					</div>
 				</div>
+        <div class="col-sm-6">
+            	  			<h3>Coming soon to the App Store</h3>
+
+        </div>
 			</div>
 		</div>
 	 </header>
 
-   <!-- DETAILS
-       ================================================== -->
-   <section class="detail">
+   <section class="story">
    <div class="container">
-     <div class="row">
-       <div class="col-md-12">
-         <div id="carousel-example-generic-2" class="carousel slide">
+       <div class="row">
+         <div class="col-md-6 english-description">
+           <h1>Project Description</h1>
+           <p>
+             Canada inspires us – its landscapes, its wildlife and its people. It’s one of the largest countries in the world and one of the most culturally diverse. A person couldn’t possibly photograph it all in one lifetime. But Canadians across Canada possess over 28 million Smartphones, and like citizens of today’s world, Canadians capture and share experiences online every day... including a huge array of amazing photos marking unique “Canadian moments”.
+           </p>
+           <p>
+             Capture.Canada is an app designed to gather and utilize this unique, and currently scattered, legacy of images, crowdsourcing the best Canada-themed photos. Its free Creative Commons license allows anyone – Governments, charities, schools, citizens – to use, edit, reproduce and distribute photos of Canada, as long as the contributor is credited. Challenges will be posted, such as “best Canadian food”, “I spot an arctic fox”, or “PEI you’re it!” – leading to the co-creation of creative and informative Canadian content.
+           </p>
+           <p>
+             Unlike so many social media apps, Capture.Canada focusses on “we” not “me”. It’s theme-based like Pinterest but images are reusable and specific to Canada. It’s gamified and fun, and doesn’t take over intellectual property rights like some platforms. It’s an app that captures Canada, provided and curated by its people, for anyone who loves Canada.
+           </p>
+           <p>
+             Building on the momentum of Canada’s 150th birthday celebrations, Capture.Canada could be launched in time to curate the best 150,000 photos of Canada, building a unique collection of high quality photos; a collection authored by volunteer photographers across Canada.
+           </p>
+           <p>
+             Capture.Canada is a legacy for generations to come.
+           </p>
 
-           <!-- Wrapper for slides -->
-           <div class="carousel-inner">
-             <div class="item active">
-                 <div class="row">
-                   <div class="col-sm-12 col-md-offset-1 col-md-6">
-                     <h1>Browse and Download Photos</h1>
-                     <p>All photos are submitted under the Creative Commons license, so they are free to use (with accreditation)!</p>
-                   </div>
-                   <div class="col-sm-12 col-md-5">
-                     <div class="app-screenshot">
-                       <img src="img/screenshots/app-1.png" class="img-responsive" alt="App Screen 1">
-                     </div>
-                   </div>
-                 </div>
-             </div>
-             <div class="item">
-               <div class="row">
-                 <div class="col-sm-12 col-md-offset-1 col-md-6">
-                   <h1>Submit your Photos to a Photo Challenge</h1>
-                   <p>People are trying to curate collections, and you can contrbute.</p>
-                 </div>
-                 <div class="col-sm-12 col-md-5">
-                   <div class="app-screenshot">
-                     <img src="img/screenshots/app-2.png" class="img-responsive" alt="App Screen 2">
-                   </div>
-                 </div>
-               </div>
-           </div>
-             <div class="item">
-               <div class="row">
-                 <div class="col-sm-12 col-md-offset-1 col-md-6">
-                   <h1>Write a story</h1>
-                   <p>Each photo tells it's own story, but feel free to ellaborate.</p>
-                 </div>
-                 <div class="col-sm-12 col-md-5">
-                   <div class="app-screenshot">
-                     <img src="img/screenshots/app-3.png" class="img-responsive" alt="App Screen 3">
-                   </div>
-                 </div>
-               </div>
-             </div>
-           </div>
 
-           <!-- Indicators -->
-           <ol class="carousel-indicators">
-             <li data-target="#carousel-example-generic-2" data-slide-to="0" class="active"></li>
-             <li data-target="#carousel-example-generic-2" data-slide-to="1"></li>
-             <li data-target="#carousel-example-generic-2" data-slide-to="2"></li>
-           </ol>
          </div>
+           <div class="col-md-6 french-description">
+             <h1>Description du projet</h1>
+             <p>
+             Le Canada nous inspire : par ses paysages, sa faune et ses gens. C’est l’un des plus grands pays au monde et l’un des plus diversifiés sur le plan culturel. Une personne ne pourrait pas tout photographier en une vie. Par contre, les Canadiens d’un bout à l’autre du pays possèdent plus de 28 millions de téléphones intelligents et, comme les citoyens du monde d’aujourd’hui, ils saisissent et partagent des expériences en ligne chaque jour... en prenant notamment un vaste éventail de photos incroyables qui marquent des « moments canadiens ».
+           </p>
+           <p>
+             Captez.Canada est une application conçue pour réunir et utiliser cet héritage d’images actuellement éparpillées en externalisant la collecte des meilleures photos qui représentent un thème canadien. Sa licence Creative Commons gratuite permet à n’importe qui – les gouvernements, les organismes de bienfaisance, les écoles et les citoyens – d’utiliser, de modifier, de reproduire et de distribuer des photos du Canada en autant que le mérite soit donné au collaborateur. Des défis qui mèneront à la cocréation de contenus originaux et informatifs, comme « les meilleurs mets canadiens », « J’aperçois un renard arctique » ou « L’Î-P.-É est LA place! », seront affichés.
+           </p>
+           <p>
+             Contrairement à tant d’autres applications de médias sociaux, Captez.Canada se concentre sur le « nous », et non sur le « moi ». L’application est centrée sur des thèmes, comme Pinterest, mais les images sont réutilisables et portent spécifiquement sur le Canada. Elle est ludifiée et amusante et n’empiète pas sur les droits de propriété intellectuelle comme certaines plateformes le font. C’est une application qui capte le Canada en images et qui est offerte et organisée par sa population pour tous ceux et celles qui aiment le Canada.
+           </p>
+           <p>
+             Pour profiter de l’élan des célébrations du 150e anniversaire du Canada, Captez.Canada pourrait être lancée à temps pour organiser les 150 000 meilleures photos du Canada afin de constituer une collection unique de photos de grande qualité; une collection créée par des photographes bénévoles aux quatre coins du pays.
+             <p>
+             Captez.Canada est un héritage pour les générations à venir.
+           </p>
+           </div>
        </div>
      </div>
-   </div>
- </section>
+   </section>
+
+
+
+
 
 
 	  <section class="photos">
 		  <div class="container">
 			  <div class="row">
-				  <div class="col-md-offset-2 col-md-8">
+				  <div class="col-md-12">
 					 <h1>Here are the latest photos that have been captured</h1>
-					 	    <p class="lead">Feature coming soon</p>
-                <div id="images"></div>
+          <div id="mygallery"></div>
 				  </div>
 			  </div>
 		  </div>
 	  </section>
 
+    <!-- DETAILS
+        ================================================== -->
+    <section class="detail">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div id="carousel-example-generic-2" class="carousel slide">
 
-	  <section class="story">
-		<div class="container">
-			  <div class="row">
-				  <div class="col-md-6">
-					  <h1>Project Description</h1>
-            <p>
-              Canada inspires us – its landscapes, its wildlife and its people. It’s one of the largest countries in the world and one of the most culturally diverse. A person couldn’t possibly photograph it all in one lifetime. But Canadians across Canada possess over 28 million Smartphones, and like citizens of today’s world, Canadians capture and share experiences online every day... including a huge array of amazing photos marking unique “Canadian moments”.
-            </p>
-            <p>
-              Capture.Canada is an app designed to gather and utilize this unique, and currently scattered, legacy of images, crowdsourcing the best Canada-themed photos. Its free Creative Commons license allows anyone – Governments, charities, schools, citizens – to use, edit, reproduce and distribute photos of Canada, as long as the contributor is credited. Challenges will be posted, such as “best Canadian food”, “I spot an arctic fox”, or “PEI you’re it!” – leading to the co-creation of creative and informative Canadian content.
-            </p>
-            <p>
-              Unlike so many social media apps, Capture.Canada focusses on “we” not “me”. It’s theme-based like Pinterest but images are reusable and specific to Canada. It’s gamified and fun, and doesn’t take over intellectual property rights like some platforms. It’s an app that captures Canada, provided and curated by its people, for anyone who loves Canada.
-            </p>
-            <p>
-              Building on the momentum of Canada’s 150th birthday celebrations, Capture.Canada could be launched in time to curate the best 150,000 photos of Canada, building a unique collection of high quality photos; a collection authored by volunteer photographers across Canada.
-            </p>
-            <p>
-              Capture.Canada is a legacy for generations to come.
-            </p>
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+              <div class="item active">
+                  <div class="row">
+                    <div class="col-sm-12 col-md-offset-1 col-md-6">
+                      <h1>Browse and Download Photos</h1>
+                      <p>All photos are submitted under the Creative Commons license, so they are free to use (with accreditation)!</p>
+                    </div>
+                    <div class="col-sm-12 col-md-5">
+                      <div class="app-screenshot">
+                        <img src="img/screenshots/app-1.png" class="img-responsive" alt="App Screen 1">
+                      </div>
+                    </div>
+                  </div>
+              </div>
+              <div class="item">
+                <div class="row">
+                  <div class="col-sm-12 col-md-offset-1 col-md-6">
+                    <h1>Submit your Photos to a Photo Challenge</h1>
+                    <p>People are trying to curate collections, and you can contrbute.</p>
+                  </div>
+                  <div class="col-sm-12 col-md-5">
+                    <div class="app-screenshot">
+                      <img src="img/screenshots/app-2.png" class="img-responsive" alt="App Screen 2">
+                    </div>
+                  </div>
+                </div>
+            </div>
+              <div class="item">
+                <div class="row">
+                  <div class="col-sm-12 col-md-offset-1 col-md-6">
+                    <h1>Write a story</h1>
+                    <p>Each photo tells it's own story, but feel free to ellaborate.</p>
+                  </div>
+                  <div class="col-sm-12 col-md-5">
+                    <div class="app-screenshot">
+                      <img src="img/screenshots/app-3.png" class="img-responsive" alt="App Screen 3">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#carousel-example-generic-2" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel-example-generic-2" data-slide-to="1"></li>
+              <li data-target="#carousel-example-generic-2" data-slide-to="2"></li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
 
 
-				  </div>
-  				  <div class="col-md-6">
-  					  <h1>Description du projet</h1>
-              <p>
-              Le Canada nous inspire : par ses paysages, sa faune et ses gens. C’est l’un des plus grands pays au monde et l’un des plus diversifiés sur le plan culturel. Une personne ne pourrait pas tout photographier en une vie. Par contre, les Canadiens d’un bout à l’autre du pays possèdent plus de 28 millions de téléphones intelligents et, comme les citoyens du monde d’aujourd’hui, ils saisissent et partagent des expériences en ligne chaque jour... en prenant notamment un vaste éventail de photos incroyables qui marquent des « moments canadiens ».
-            </p>
-            <p>
-              Captez.Canada est une application conçue pour réunir et utiliser cet héritage d’images actuellement éparpillées en externalisant la collecte des meilleures photos qui représentent un thème canadien. Sa licence Creative Commons gratuite permet à n’importe qui – les gouvernements, les organismes de bienfaisance, les écoles et les citoyens – d’utiliser, de modifier, de reproduire et de distribuer des photos du Canada en autant que le mérite soit donné au collaborateur. Des défis qui mèneront à la cocréation de contenus originaux et informatifs, comme « les meilleurs mets canadiens », « J’aperçois un renard arctique » ou « L’Î-P.-É est LA place! », seront affichés.
-            </p>
-            <p>
-              Contrairement à tant d’autres applications de médias sociaux, Captez.Canada se concentre sur le « nous », et non sur le « moi ». L’application est centrée sur des thèmes, comme Pinterest, mais les images sont réutilisables et portent spécifiquement sur le Canada. Elle est ludifiée et amusante et n’empiète pas sur les droits de propriété intellectuelle comme certaines plateformes le font. C’est une application qui capte le Canada en images et qui est offerte et organisée par sa population pour tous ceux et celles qui aiment le Canada.
-            </p>
-            <p>
-              Pour profiter de l’élan des célébrations du 150e anniversaire du Canada, Captez.Canada pourrait être lancée à temps pour organiser les 150 000 meilleures photos du Canada afin de constituer une collection unique de photos de grande qualité; une collection créée par des photographes bénévoles aux quatre coins du pays.
-              <p>
-              Captez.Canada est un héritage pour les générations à venir.
-            </p>
-  				  </div>
-			  </div>
-		  </div>
-	  </section>
 
 
 	 <!-- SOCIAL
 	     ================================================== -->
 	  <section class="social">
 	  	<div class="container">
+        <!--
 	  		  <div class="row">
 	  			  <div class="col-md-12">
-
-    	  			<h1>Coming soon to the App Store</h1>
-              <br>
-              <br>
 	  			  	<h2>Connect with us</h2>
 	  			   	<a class="icon-facebook"></a>
 	  			   	<a class="icon-twitter"></a>
@@ -235,6 +242,81 @@
 	  			   	<a class="icon-pinterest"></a>
 	  			   </div>
 	  		  </div>
+        -->
+          <div class="row">
+            <div class="col-xs-6 english-description">
+              <h2>Collaborators</h2>
+
+              <h3>Powered by</h3>
+
+              <p>IN·spire Innovation Hub (Natural Resources Canada)</p>
+
+              <p>Science and Technology Museums Corporation</p>
+
+              <p>DigiHub</p>
+
+              <p>Rum & Code</p>
+
+              <p>Canadian Museum of History</p>
+
+              <p>Canadian Museum of Nature</p>
+
+              <p>PS App Challenge</p>
+
+              <p>Central Innovation Hub (Privy Council Office)</p>
+
+              <p>Department of Canadian Heritage</p>
+
+              <p>Public Health Agency of Canada</p>
+
+              <p>Health Canada</p>
+
+              <p>Shared Services Canada</p>
+
+              <h3>Special thanks to:</h3>
+
+              <p>Deputy Minister Committee on Policy Innovation</p>
+
+              <br />
+              <br />
+              <br />
+            </div>
+            <div class="col-md-6 french-description">
+                <h2> Collaborateurs</h2>
+
+                <h3>Optimisé par :</h3>
+
+                <p>Carrefour d’innovation IN·spire (Ressources naturelles Canada)</p>
+
+                <p>Société des musées de sciences et technologies du Canada</p>
+
+                <p>DigiHub</p>
+
+                <p>Rum & Code</p>
+
+                <p>Musée canadien de l’histoire</p>
+
+                <p>Musée canadien de la nature</p>
+
+                <p>Défi d’applications de la FP</p>
+
+                <p>Centre d’innovation (Bureau du Conseil privé)</p>
+
+                <p>Ministère du Patrimoine canadien</p>
+
+                <p>Agence de la santé publique du Canada</p>
+
+                <p>Santé Canada</p>
+
+                <p>Services partagés Canada</p>
+
+                <h3>Un remerciement particulier au :</h3>
+
+                <p>Comité des sous-ministres sur l’innovation en matière de politiques</p>
+
+
+            </div>
+          </div>
 	  	  </div>
 	  </section>
 
@@ -246,5 +328,48 @@
     <script src="js/animatescroll.js"></script>
     <script src="js/scripts.js"></script>
     <script src="js/retina.min.js"></script>
+    <script src="js/jquery.justifiedGallery.min.js"></script>
+    <script src="js/jquery.colorbox-min.js"></script>
+    <script>
 
+$( document ).ready(function() {
+/*
+
+    (function() {
+      $.getJSON( "http://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?", {
+        format: "json"
+      })
+        .done(function( data ) {
+
+              $.each( data.items, function( i, item ) {
+
+                $( "<img>" ).attr( "src", item.media.m ).appendTo( "#mygallery" ).wrap(["<a href='", item.media.m , "'></a>"].join(''));
+                if ( i === 50 ) {
+                  return false;
+                }
+
+              });
+
+              $("#mygallery").justifiedGallery({
+                    lastRow : 'nojustify',
+                    rowHeight : 100,
+                    rel : 'gallery1', //replace with 'gallery1' the rel attribute of each link
+                    margins : 1
+                }).on('jg.complete', function () {
+                    $(this).find('a').colorbox({
+                        maxWidth : '80%',
+                        maxHeight : '80%',
+                        opacity : 0.8,
+                        transition : 'elastic',
+                        current : ''
+                    });
+              });
+
+
+            });
+        })();
+
+*/
+});
+    </script>
 </html>

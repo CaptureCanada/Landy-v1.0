@@ -1,3 +1,6 @@
+header .container {
+  padding-bottom:50px;
+}
 header h1, .lead {
   color: black;
 }
@@ -11,10 +14,11 @@ header {
     height:auto;
     min-height: 960px;
   }
-header .header-text {
-text-align: left;
-
+header .carousel-iphone {
+  margin-right: inherit;
 }
+
+
   .story{
   	overflow: hidden;
   	padding: 100px 0px 100px 0px;
@@ -36,11 +40,12 @@ text-align: left;
   	color: white;
   }
 
-  .photos h1{
+  .photos h1,   .photos h2,   .photos h3,   .photos h4 {
   	text-transform: uppercase;
   	font-weight: 300;
   	font-family: 'Roboto Condensed', sans-serif;
   	font-size: 2.8em;
+  	color: white;
   }
   .photos{
   	padding-top: 50px;
@@ -57,9 +62,20 @@ text-align: left;
   .social {
     background: url('../img/sea.jpg');
   }
+
+
+  .english-description {
+    text-align: right;
+  }
+  .french-description {
+    text-align: left;
+  }
 @media (min-width:1024px) {
 .capture-logo {
   text-align: right;
+}
+header .header-text {
+  text-align: left;
 }
 
 }
