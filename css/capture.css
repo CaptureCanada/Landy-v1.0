@@ -54,6 +54,9 @@ text-align: left;
   .social .visibility {
     visibility: visible;
   }
+  .social {
+    background: url('../img/sea.jpg');
+  }
 @media (min-width:1024px) {
 .capture-logo {
   text-align: right;
