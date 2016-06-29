@@ -43,7 +43,7 @@
 			    <ul class="nav navbar-nav">
 			      <li><a onclick="$('header').animatescroll({padding:71});">Start</a></li>
 			      <li><a onclick="$('.story').animatescroll({padding:71});">Our Story</a></li>
-			      <li><a onclick="$('.photos').animatescroll({padding:71});">Photos Captures</a></li>
+			      <li><a onclick="$('.photos').animatescroll({padding:71});">Photo Captures</a></li>
 			      <li><a onclick="$('.detail').animatescroll({padding:71});">Features</a></li>
 			      <li><a onclick="$('.social').animatescroll({padding:71});">About Us</a></li>
 			    </ul>
@@ -95,6 +95,7 @@
 				</div>
         <div class="col-sm-6">
             	  			<h3>Coming soon to the App Store</h3>
+                      	<h3>Bientôt dans l’App Store</h3>
 
         </div>
 			</div>
@@ -172,6 +173,7 @@
 			  <div class="row">
 				  <div class="col-md-12">
 					 <h1>Here are the latest photos that have been captured</h1>
+           <h1>Voici les dernières photos qui ont été capturés</h1>
           <div id="mygallery"></div>
 				  </div>
 			  </div>
@@ -193,7 +195,10 @@
                     <div class="col-sm-12 col-md-offset-1 col-md-6">
                       <h1>Browse and Download Photos</h1>
                       <p>All photos are submitted under the Creative Commons license, so they are free to use (with accreditation)!</p>
-                    </div>
+
+                        <h1>Parcourez et téléchargez des Photos</h1>
+                        <p>Toutes les photos sont soumises aux termes de la licence Creative Commons, donc ils sont libres d’utiliser (avec agrément)!</p>
+                      </div>
                     <div class="col-sm-12 col-md-5">
                       <div class="app-screenshot">
                         <img src="img/screenshots/app-1.png" class="img-responsive" alt="App Screen 1">
@@ -204,8 +209,10 @@
               <div class="item">
                 <div class="row">
                   <div class="col-sm-12 col-md-offset-1 col-md-6">
-                    <h1>Submit your Photos to a Photo Challenge</h1>
-                    <p>People are trying to curate collections, and you can contrbute.</p>
+                    <h1>The 150 000 photo Challenge</h1>
+                    <p>We are trying to curate 150 000 photos to celebrate Canada's 150 birthday.</p>
+                      <h1>Le Défi 150 000 photo</h1>
+                      <p>Nous essayons de curé 150 000 photos pour fêter les 150 ans du Canada.</p>
                   </div>
                   <div class="col-sm-12 col-md-5">
                     <div class="app-screenshot">
@@ -218,7 +225,10 @@
                 <div class="row">
                   <div class="col-sm-12 col-md-offset-1 col-md-6">
                     <h1>Write a story</h1>
-                    <p>Each photo tells it's own story, but feel free to ellaborate.</p>
+                    <p>Each photo tells it's own story, but feel free to elaborate.</p>
+                      <h1>Écris une histoire</h1>
+                      <p>Chaque photo raconte c’est une histoire propre, mais n’hésitez pas à élaborer.</p>
+
                   </div>
                   <div class="col-sm-12 col-md-5">
                     <div class="app-screenshot">
@@ -364,11 +374,8 @@ $( document ).ready(function() {
  });
 
 /*
-
     (function() {
-      $.getJSON( "http://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?", {
-        format: "json"
-      })
+      $.getJSON( "http://api.wecapturecanada.com/photos")
         .done(function( data ) {
 
               $.each( data.items, function( i, item ) {
@@ -398,7 +405,6 @@ $( document ).ready(function() {
 
             });
         })();
-
 */
 });
     </script>
